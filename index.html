@@ -44,13 +44,13 @@
                 </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                 </ul>
-                <button type="button" id="resumebutton" class="btn btn-outline-warning nav-link mx-auto">RESUME</button>
+                <a href="assets/NuzulFirdaly.pdf" target="_blank" id="resumebutton" class="btn btn-outline-warning nav-link mx-auto "> RESUME</a>
+                <!-- <button type="button" id="resumebutton" onclick="window.location.href='assets/NuzulFirdaly.pdf' " class="btn btn-outline-warning nav-link mx-auto">RESUME</button> -->
             </div>
 
         </div>
@@ -379,15 +379,15 @@
             <div class="row align-items-center">
                 <div class="col-lg-4 text-lg-start">Copyright &copy; Nuzul Firdaly 2021</div>
                 <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/nuzulfirdaly/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/nuzulfirdaly/"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="col-lg-4 text-lg-end">
                     <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
                     <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
                 </div>
             </div>
+            <hr>
         </div>
     </footer>
     <!-- Portfolio Modals-->
@@ -495,7 +495,7 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Car Loan Trends In Singapore</h2>
+                                <h2>Car Loan Trends In Singapore</h2>
                                 <p class="item-intro text-muted">Analytical dashboard analyzing the performance of car loans and uncovering hidden patternsp>
                                     <img class="img-fluid d-block mx-auto" src="assets\Projects\Dav\Strategy (Nuzul).png" alt="..." />
                                     <p>By utilzing Tableau and Tableau Prep builder. I was able to create a preprocessing workflow, clean the data and analyze it and find relationships in the data.</p>
@@ -598,6 +598,11 @@
                                 <p>The experience has made me appreciate the wonders of software and business. With those 2 combined, I realized the many things that it can do for us. From disrupting and providing new opportunities to improving existing
                                     operations and accessibility. Besides the work, I had the opportunity to learn about the other team's projects and we bonded through shared experiences and philosophies.</p>
                                 <h4>Besides earning gold, maybe the real award is the friends we made along the way!</h4>
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://drive.google.com/drive/folders/1cdAeTFalqzMlaAg0hpkT82UpD-LJyCHN?usp=sharing">Google Drive</a>
+                                    </li>
+                                </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
                                         Close Project
@@ -619,19 +624,30 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2>Call For Help</h2>
+                                <p class="item-intro text-muted">Utilizing IBM Watson to reduce response time to emergencies.</p>
+                                <div class="wrap-modal-slider">
+                                    <div class="slickslider">
+                                        <div class="item img-fill"><img class="img-fluid d-block mx-auto" src="assets\Projects\CallForHelp\keyissues.PNG" alt="..." /></div>
+                                        <div class="item img-fill"><img class="img-fluid d-block mx-auto" src="assets\Projects\CallForHelp\Strategy.PNG" alt="..." /></div>
+                                        <div class="item img-fill"><img class="img-fluid d-block mx-auto" src="assets\Projects\CallForHelp\Conclusion.PNG" alt="..." /></div>
+                                        <div class="item img-fill"><img class="img-fluid d-block mx-auto" src="assets\Projects\CallForHelp\Screenshot 2021-07-02 124547.jpg" alt="..." /></div>
+                                        <div class="item img-fill"><img class="img-fluid d-block mx-auto" src="assets\Projects\CallForHelp\Screenshot 2021-07-02 124658.jpg" alt="..." /></div>
+
+                                    </div>
+                                </div>
+
+                                <p>With the increasingly aging population and a growing segment of vulnerable populations in mind, how might we leverage analytics for better sense-making to be alerted at the onset of incidents which require emergency response
+                                    and mobilise CFRs for effective early intervention especially to the vulnerable population?</p>
+                                <p>Therefore we will be making use of IBM Watson to craft an application to reduce response time when it comes to emergency situations(Medical or Fire) by alerting CFRs and professionals. And better prepare reponders with
+                                    the right resources for the appropriate situation.
+                                </p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong> Window
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong> Photography
+                                        <a href="https://github.com/Elljaykei/IT2005-CallforHelp_SCDFXIBM">Our Github Repo</a>
                                     </li>
                                 </ul>
+
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
                                         Close Project
@@ -664,14 +680,11 @@
                                     </div>
                                 </div>
 
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Shortly after graduating from ITE and then enrolling to NYP. I was introduced to HTML, CSS and JS which i utilized to develop my very own website that similar to this, shows the work i did and some blog i wrote. I took
+                                    inspiration from Classic-Magazine's website for the design of my website. I enjoyed being able to express my sense of style freely! </p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong> Window
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong> Photography
+                                        <a href="https://nuzulfirdaly.github.io/NYPwebdevassignment/portfolio%20but%20with%20bootstrap/firstpage.html">My Website</a>
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -701,6 +714,7 @@
         $(document).ready(function() {
             $('.slickslider').slick({
                 infinite: false,
+                dots: true,
             });
             $('.interestslider').slick({
                 infinite: false,
